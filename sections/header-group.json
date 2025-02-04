@@ -17,7 +17,7 @@
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
-            "announcement": "Announce something important here"
+            "announcement": "zadzaddza"
           }
         },
         "slide_mwF4Tk": {
@@ -45,7 +45,7 @@
         "font_size_desktop": "fs-desktop-sm",
         "text_transform": "",
         "letter_spacing": 1,
-        "carousel_autoplay": 5,
+        "carousel_autoplay": 8,
         "carousel_vertical": true,
         "pt": 4,
         "pb": 4
@@ -57,7 +57,8 @@
         "37d4f863-aecd-4a86-87c1-a5887bf87140": {
           "type": "mobile",
           "settings": {
-            "container_max_width": "",
+            "container_max_width": "sdzdezafzea",
+            "logo": "shopify://shop_images/Design_sans_titre_2.png",
             "logo_height": 30,
             "main_menu": "",
             "collections_menu": "",
