@@ -90,7 +90,9 @@
         "border_color": "border-primary",
         "border_opacity": 100,
         "container_max_width": "",
-        "products": [],
+        "products": [
+          "boule-de-cristal-galaxy-avec-socle-en-bois-led-integree-et-interrupteur-1"
+        ],
         "collection": "latest",
         "limit": 8,
         "recommended_mode": true,
@@ -207,8 +209,16 @@
             "title": ""
           }
         },
+        "collection_LKWgiR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
         "collection_kRQqkR": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "sale",
             "title": ""
@@ -221,6 +231,7 @@
         "collection_b7ELCB",
         "collection_XRMXNt",
         "collection_fQ9QDf",
+        "collection_LKWgiR",
         "collection_kRQqkR"
       ],
       "settings": {
