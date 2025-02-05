@@ -421,6 +421,7 @@
         "item_iKKgHJ",
         "item_Je3xNm"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
