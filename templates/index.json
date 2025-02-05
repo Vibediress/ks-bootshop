@@ -572,7 +572,7 @@
         "item_B99dNi": {
           "type": "item",
           "settings": {
-            "title": "First Testimonial",
+            "title": "Premier Avis",
             "description": "<p>J’ai commandé une boule de cristal avec la gravure de la Voie lactée, et je suis tout simplement émerveillée ! C’est bien plus qu’une simple veilleuse, c’est une œuvre d’art. La lumière douce du socle en bois apporte une ambiance magique à ma chambre. Merci AstraiaLux pour cette superbe découverte !</p>",
             "author": "— Camille L.",
             "author_subtitle": "Verified Customer"
@@ -581,7 +581,7 @@
         "item_VPnR9Q": {
           "type": "item",
           "settings": {
-            "title": "Second Testimonial",
+            "title": "Deuxième Avis",
             "description": "<p>Mon achat chez AstraiaLux a été une expérience fantastique ! La boule de cristal avec Saturne gravée à l’intérieur est incroyable de précision. La finition du socle en bois est parfaite et s’accorde avec n’importe quel intérieur. Je recommande à 100 % !</p>",
             "author": "— Jean-Marc D",
             "author_subtitle": "Verified Customer"
@@ -590,7 +590,7 @@
         "item_XTUtYy": {
           "type": "item",
           "settings": {
-            "title": "Third Testimonial",
+            "title": "Troisième Avis",
             "description": "<p>Je cherchais une veilleuse originale pour mon salon, et j’ai craqué pour une boule de cristal avec un astronaute gravé. Le résultat est magnifique, et mes invités n’arrêtent pas de me demander où je l’ai trouvée. Bravo pour ce produit unique !</p>",
             "author": "— Sarah P",
             "author_subtitle": "Verified Customer"
@@ -610,7 +610,7 @@
         "item_BUkPE7": {
           "type": "item",
           "settings": {
-            "title": "Fifth Testimonial",
+            "title": "Cinquième Avis",
             "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
             "author": "— Laurent G",
             "author_subtitle": "Verified Customer"
@@ -619,9 +619,9 @@
         "item_DtBFNc": {
           "type": "item",
           "settings": {
-            "title": "Sixth Testimonial",
-            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
-            "author": "Author's Name",
+            "title": "Premier Avis",
+            "description": "<p>Très bon produit, la gravure est magnifique et le socle en bois donne un côté chic. Seul bémol : l’emballage était un peu abîmé à l’arrivée, mais heureusement, la boule de cristal était bien protégée et en parfait état. Une belle idée cadeau malgré ce petit souci</p>",
+            "author": "— Emma G",
             "author_subtitle": "Verified Customer"
           }
         }
