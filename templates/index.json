@@ -573,8 +573,8 @@
           "type": "item",
           "settings": {
             "title": "First Testimonial",
-            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
-            "author": "Author's Name",
+            "description": "<p>J’ai commandé une boule de cristal avec la gravure de la Voie lactée, et je suis tout simplement émerveillée ! C’est bien plus qu’une simple veilleuse, c’est une œuvre d’art. La lumière douce du socle en bois apporte une ambiance magique à ma chambre. Merci AstraiaLux pour cette superbe découverte !</p>",
+            "author": "— Camille L.",
             "author_subtitle": "Verified Customer"
           }
         },
@@ -582,8 +582,8 @@
           "type": "item",
           "settings": {
             "title": "Second Testimonial",
-            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
-            "author": "Author's Name",
+            "description": "<p>Mon achat chez AstraiaLux a été une expérience fantastique ! La boule de cristal avec Saturne gravée à l’intérieur est incroyable de précision. La finition du socle en bois est parfaite et s’accorde avec n’importe quel intérieur. Je recommande à 100 % !</p>",
+            "author": "— Jean-Marc D",
             "author_subtitle": "Verified Customer"
           }
         },
@@ -591,17 +591,19 @@
           "type": "item",
           "settings": {
             "title": "Third Testimonial",
-            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
-            "author": "Author's Name",
+            "description": "<p>Je cherchais une veilleuse originale pour mon salon, et j’ai craqué pour une boule de cristal avec un astronaute gravé. Le résultat est magnifique, et mes invités n’arrêtent pas de me demander où je l’ai trouvée. Bravo pour ce produit unique !</p>",
+            "author": "— Sarah P",
             "author_subtitle": "Verified Customer"
           }
         },
         "item_79nB3i": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Fourth Testimonial",
-            "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
-            "author": "Author's Name",
+            "description": "<p>Service client au top et produit encore plus beau que sur les photos ! La gravure des galaxies est impressionnante, et le socle lumineux met parfaitement en valeur les détails. Une très belle idée cadeau, je reviendrai pour en commander d’autres !</p>",
+            "img": "shopify://shop_images/saturne_1.jpg",
+            "author": "— Laurent G",
             "author_subtitle": "Verified Customer"
           }
         },
@@ -610,7 +612,7 @@
           "settings": {
             "title": "Fifth Testimonial",
             "description": "<p>\"Shopping at [Store Name] has been an absolute delight! The carefully curated selection of products is a testament to the store's commitment to quality. From trendy fashion pieces to unique home decor items, every product exudes style and craftsmanship.\"</p>",
-            "author": "Author's Name",
+            "author": "— Laurent G",
             "author_subtitle": "Verified Customer"
           }
         },
@@ -712,7 +714,6 @@
     },
     "separator_pMbxtB": {
       "type": "separator",
-      "disabled": true,
       "settings": {
         "bg_color": "bg-secondary",
         "bg_opacity": 25,
