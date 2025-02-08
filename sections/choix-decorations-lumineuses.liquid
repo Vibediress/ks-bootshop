@@ -1,6 +1,134 @@
+<section 
+  class="decorations-lumineuses-section {{ section.settings.bg_color }} {{ section.settings.text_color }} {{ section.settings.border_style }}"
+  style="
+    --bs-bg-opacity: {{ section.settings.bg_opacity }}%;
+    --bs-border-opacity: {{ section.settings.border_opacity }}%;
+    text-align: {{ section.settings.text_align }};
+    padding: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+  ">
+  
+  <div class="container" style="max-width: {{ section.settings.container_width }}px;">
+    <h2 class="page-title {{ section.settings.title_size }}">{{ section.settings.page_title }}</h2>
+    <p class="page-description {{ section.settings.text_size }}">{{ section.settings.page_description }}</p>
+
+    <div class="product-selection">
+      {% for block in section.blocks %}
+        <div class="product-option">
+          <h3>{{ block.settings.product_title }}</h3>
+          <a href="{{ block.settings.product_link }}" class="btn btn-primary" style="background-color: {{ block.settings.button_color }}; border-radius: {{ block.settings.button_radius }}px;">
+            {{ block.settings.button_text }}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if section.settings.show_collections %}
+      <div class="collection-list">
+        {% for collection in section.settings.collections %}
+          <a href="{{ collection.url }}" class="collection-card">
+            <img src="{{ collection.image | img_url: '500x' }}" alt="{{ collection.title }}">
+            <h3>{{ collection.title }}</h3>
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Choix Deco Lumi",
+  "settings": [
+    {
+      "type": "text",
+      "id": "page_title",
+      "label": "Titre de la page",
+      "default": "Sélectionnez vos décorations lumineuses"
+    },
+    {
+      "type": "richtext",
+      "id": "page_description",
+      "label": "Description de la page",
+      "default": "<p>Choisissez votre quantité et vos options.</p>"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Taille du titre",
+      "default": "h2",
+      "options": [
+        { "value": "h1", "label": "Très Grand" },
+        { "value": "h2", "label": "Grand" },
+        { "value": "h3", "label": "Moyen" },
+        { "value": "h4", "label": "Petit" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_size",
+      "label": "Taille du texte",
+      "default": "fs-md",
+      "options": [
+        { "value": "fs-sm", "label": "Petit" },
+        { "value": "fs-md", "label": "Moyen" },
+        { "value": "fs-lg", "label": "Grand" }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_collections",
+      "label": "Afficher les collections",
+      "default": true
+    },
+    {
+      "type": "collection_list",
+      "id": "collections",
+      "label": "Collections à afficher"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Produit",
+      "settings": [
+        {
+          "type": "text",
+          "id": "product_title",
+          "label": "Nom du produit"
+        },
+        {
+          "type": "url",
+          "id": "product_link",
+          "label": "Lien du produit"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Texte du bouton",
+          "default": "Acheter"
+        },
+        {
+          "type": "color",
+          "id": "button_color",
+          "label": "Couleur du bouton",
+          "default": "#ff6600"
+        },
+        {
+          "type": "range",
+          "id": "button_radius",
+          "label": "Arrondi du bouton",
+          "min": 0,
+          "max": 50,
+          "default": 10,
+          "unit": "px"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page Deco Lumi"
+    }
+  ]
+}
 {% endschema %}
