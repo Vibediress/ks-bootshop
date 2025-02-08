@@ -64,24 +64,10 @@
             "pt": 3,
             "pb": 3
           }
-        },
-        "37d4f863-aecd-4a86-87c1-a5887bf87140": {
-          "type": "mobile",
-          "settings": {
-            "container_max_width": "astraiaLux",
-            "logo": "shopify://shop_images/Design_sans_titre_2.png",
-            "logo_height": 30,
-            "main_menu": "main-menu",
-            "collections_menu": "",
-            "social_icons": true,
-            "pt": 6,
-            "pb": 6
-          }
         }
       },
       "block_order": [
-        "desktop_fNdTEa",
-        "37d4f863-aecd-4a86-87c1-a5887bf87140"
+        "desktop_fNdTEa"
       ],
       "settings": {
         "bg_color": "bg-body",
