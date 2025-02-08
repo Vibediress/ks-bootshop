@@ -93,42 +93,10 @@
         "border_opacity": 100,
         "shadow": "shadow-sm"
       }
-    },
-    "choix_decorations_lumineuses_JgaHYT": {
-      "type": "choix-decorations-lumineuses",
-      "blocks": {
-        "product_mUQQp3": {
-          "type": "product",
-          "settings": {
-            "product_title": "",
-            "product_link": "shopify://collections/decorations-lumineuses",
-            "button_text": "Acheter",
-            "button_color": "#ff6600",
-            "button_radius": 10
-          }
-        }
-      },
-      "block_order": [
-        "product_mUQQp3"
-      ],
-      "settings": {
-        "page_title": "Sélectionnez vos décorations lumineuses",
-        "page_description": "<p>Choisissez votre quantité et vos options.</p>",
-        "title_size": "h2",
-        "text_size": "fs-md",
-        "text_align": "center",
-        "bg_color": "bg-white",
-        "bg_opacity": 100,
-        "show_collections": true,
-        "collections": [],
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
     }
   },
   "order": [
     "announcement_bar_Ge9W3V",
-    "navbar",
-    "choix_decorations_lumineuses_JgaHYT"
+    "navbar"
   ]
 }
