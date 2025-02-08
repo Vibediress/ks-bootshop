@@ -6,9 +6,9 @@
     text-align: {{ section.settings.text_align }};
     padding: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
   ">
-  
+
   <div class="container" style="max-width: {{ section.settings.container_width }}px;">
-    <h2 class="page-title {{ section.settings.title_size }}">{{ section.settings.page_title }}</h2>
+    <h1 class="page-title {{ section.settings.title_size }}">{{ section.settings.page_title }}</h1>
     <p class="page-description {{ section.settings.text_size }}">{{ section.settings.page_description }}</p>
 
     <div class="product-selection">
@@ -75,6 +75,37 @@
       ]
     },
     {
+      "type": "select",
+      "id": "text_align",
+      "label": "Alignement du texte",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Gauche" },
+        { "value": "center", "label": "Centré" },
+        { "value": "right", "label": "Droite" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bg_color",
+      "label": "Couleur de fond",
+      "default": "bg-white",
+      "options": [
+        { "value": "bg-white", "label": "Blanc" },
+        { "value": "bg-light", "label": "Gris clair" },
+        { "value": "bg-dark", "label": "Noir" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "bg_opacity",
+      "label": "Opacité du fond",
+      "min": 0,
+      "max": 100,
+      "default": 100,
+      "unit": "%"
+    },
+    {
       "type": "checkbox",
       "id": "show_collections",
       "label": "Afficher les collections",
@@ -84,6 +115,22 @@
       "type": "collection_list",
       "id": "collections",
       "label": "Collections à afficher"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Marge en haut (px)",
+      "min": 0,
+      "max": 100,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Marge en bas (px)",
+      "min": 0,
+      "max": 100,
+      "default": 20
     }
   ],
   "blocks": [
@@ -132,3 +179,4 @@
   ]
 }
 {% endschema %}
+``
