@@ -729,6 +729,24 @@
         "pt": 0,
         "pb": 0
       }
+    },
+    "choix_decorations_lumineuses_CW3QGi": {
+      "type": "choix-decorations-lumineuses",
+      "settings": {
+        "page_title": "Sélectionnez vos décorations lumineuses",
+        "page_description": "<p>Choisissez votre quantité et vos options.</p>",
+        "title_size": "h2",
+        "text_size": "fs-md",
+        "text_align": "center",
+        "bg_color": "bg-white",
+        "bg_opacity": 100,
+        "show_collections": true,
+        "collections": [
+          "decorations-lumineuses"
+        ],
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -744,6 +762,7 @@
     "faq_7TT7z4",
     "testimonials_eFtnyC",
     "blog_slider_UUweWT",
-    "separator_pMbxtB"
+    "separator_pMbxtB",
+    "choix_decorations_lumineuses_CW3QGi"
   ]
 }
