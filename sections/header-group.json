@@ -66,21 +66,10 @@
             "pt": 6,
             "pb": 6
           }
-        },
-        "069e870e-aed4-4929-bf73-c0daca8be18e": {
-          "type": "desktop",
-          "settings": {
-            "container_max_width": "",
-            "logo_height": 32,
-            "main_menu": "d-corations-lumineuses",
-            "pt": 5,
-            "pb": 5
-          }
         }
       },
       "block_order": [
-        "37d4f863-aecd-4a86-87c1-a5887bf87140",
-        "069e870e-aed4-4929-bf73-c0daca8be18e"
+        "37d4f863-aecd-4a86-87c1-a5887bf87140"
       ],
       "settings": {
         "bg_color": "bg-body",
