@@ -47,7 +47,7 @@
         {% for block in section.blocks %} 
           {% assign collection = block.settings.collection %}
           <div class="swiper-slide p-4 p-desktop-5" {{ block.shopify_attributes }}>
-            <a href="{% if collection.handle == 'NOM_DE_TA_COLLECTION' %} /products/NOM_DU_PRODUIT {% else %} {{ collection.url }} {% endif %}">
+            <a href="{% if collection.handle == 'decorations-lumineuses' %} /products/crystal-moon-ball {% else %} {{ collection.url }} {% endif %}">
     {% render 'collection-card', collection: collection, block: block %}
 </a>
           </div>
