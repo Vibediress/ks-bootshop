@@ -23,9 +23,9 @@
             "title": "a",
             "description": "<p>a</p>",
             "btn_primary_text": "Voir le produit",
-            "btn_primary_url": "https://www.kondasoft.com/collections/shopify-themes/products/ks-bootshop",
+            "btn_primary_url": "shopify://products/boule-de-cristal-galaxy-avec-socle-en-bois-led-integree-et-interrupteur-1",
             "btn_secondary_text": "Voir la collection complète",
-            "btn_secondary_url": "https://admin.shopify.com/store/x5wqdr-dm/collections/450196832511"
+            "btn_secondary_url": "shopify://collections/decorations-lumineuses"
           }
         },
         "slide_TddqxQ": {
