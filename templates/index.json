@@ -540,8 +540,8 @@
         "item_dizKmG": {
           "type": "item",
           "settings": {
-            "title": "How can I get a refund for my order?",
-            "description": "<p>If for any reason you are not completely satisfied with your purchase, within 30 days of placing your order, we will refund you for your purchase with no questions asked.</p>"
+            "title": "Comment puis-je obtenir un remboursement pour ma commande ?",
+            "description": "<p>Si vous n’êtes pas entièrement satisfait de votre achat, <strong>AstraiaLux</strong> vous permet de demander un <strong>remboursement sous 30 jours après la commande</strong>, sans poser de questions.</p><p>Pour initier un retour, contactez-nous avec votre numéro de commande à notre service client. Nous vous guiderons à travers le processus de retour. 🚀</p>"
           }
         }
       },
