@@ -76,22 +76,35 @@
   </div>
   <script>
 document.addEventListener("DOMContentLoaded", function() {
-  let variantDropdown = document.querySelector("[name='id']");
-  let priceElement = document.getElementById("dynamic-price");
-  let variants = {{ variants_json | json }};
+    let variantDropdown = document.querySelector('[name="id"]');
+    let priceElement = document.getElementById("dynamic-price");
+    let quantityInput = document.querySelector('input[name="quantity"]');
+    
+    if (!variantDropdown || !priceElement || !quantityInput) return;
+    
+    let variants = {{ product.variants | json }};
 
-  if (variantDropdown && priceElement) {
-    variantDropdown.addEventListener("change", function() {
-      let selectedVariantId = this.value;
-      let selectedVariant = variants.find(variant => variant.id == selectedVariantId);
+    function updatePrice() {
+        let selectedVariantId = variantDropdown.value;
+        let selectedVariant = variants.find(variant => variant.id == selectedVariantId);
+        
+        if (selectedVariant) {
+            let quantity = parseInt(quantityInput.value, 10) || 1;
+            let totalPrice = (selectedVariant.price * quantity) / 100;
 
-      if (selectedVariant) {
-        priceElement.innerText = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(selectedVariant.price / 100);
-      }
-    });
-  }
+            priceElement.innerText = new Intl.NumberFormat("fr-FR", {
+                style: "currency",
+                currency: "EUR"
+            }).format(totalPrice);
+        }
+    }
+
+    variantDropdown.addEventListener("change", updatePrice);
+    quantityInput.addEventListener("input", updatePrice);
+    quantityInput.addEventListener("change", updatePrice); 
+
+    updatePrice(); // Met à jour le prix au chargement de la page
 });
-</script>
 
 </section>
 
