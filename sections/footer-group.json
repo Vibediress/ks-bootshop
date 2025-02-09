@@ -70,9 +70,9 @@
           "settings": {
             "title": "À propos de nous",
             "title_font_size": "fs-xl",
-            "description": "<p>Finish your Shopify store within days, not months. 15+ years of coding experience, 50k+ customers served!</p>",
-            "btn_primary_text": "Browse themes",
-            "btn_primary_url": "https://www.kondasoft.com/collections/shopify-themes",
+            "description": "<p>Chez <strong>AstraliaLux</strong>, nous illuminons votre quotidien avec des créations inspirées de l’univers. Qualité, design et éclat sont au cœur de notre mission.</p><p>✨ Produits uniques et lumineux<br/>🚀 Livraison rapide et sécurisée<br/>🔒 Paiements 100 % protégés</p><p>Plongez dans notre collection et laissez-vous séduire !</p>",
+            "btn_primary_text": "Parcourir la boutique",
+            "btn_primary_url": "shopify://collections/decorations-lumineuses",
             "btn_primary_color": "btn-primary",
             "btn_secondary_text": "Learn more",
             "btn_secondary_url": "https://www.kondasoft.com/collections/shopify-themes",
