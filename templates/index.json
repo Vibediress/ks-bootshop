@@ -510,6 +510,7 @@
         },
         "item_zR73bw": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "",
             "description": ""
@@ -518,7 +519,7 @@
         "item_jyLYkB": {
           "type": "item",
           "settings": {
-            "title": "What payment methods do you support?",
+            "title": "💳 Quels sont les moyens de paiement acceptés ?",
             "description": "<p>We accept PayPal, Visa, MasterCard, Discover, and American Express but feel free to contact us for other payment options.</p>"
           }
         },
