@@ -533,8 +533,8 @@
         "item_kWLWrb": {
           "type": "item",
           "settings": {
-            "title": "Can I order as a gift for someone else?",
-            "description": "<p>When ordering as a gift for someone, be sure to enter in your email address to receive all summary information but enter in the recipient’s name and shipping information. We will be sure to keep all prices and receipts out of the package.</p>"
+            "title": "Puis-je commander un cadeau pour quelqu'un d'autre ?",
+            "description": "<p>Oui, vous pouvez offrir un produit <strong>AstraiaLux</strong> en cadeau ! 🎁</p><p>Lors de la commande, renseignez <strong>votre adresse e-mail</strong> pour recevoir toutes les informations liées à la commande. Ensuite, entrez <strong>le nom et l’adresse de livraison du destinataire</strong>.</p><p>Ne vous inquiétez pas, nous veillons à <strong>ne pas inclure de prix ni de facture</strong> dans le colis afin de préserver la surprise. ✨</p>"
           }
         },
         "item_dizKmG": {
