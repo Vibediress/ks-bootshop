@@ -123,7 +123,8 @@ document.addEventListener("DOMContentLoaded", function() {
     
     if (!variantDropdown || !priceElement || !quantityInput) return;
     
-    let variants = JSON.parse('{{ product.variants | json }}');
+    let variants = {{ product.variants | json }};
+
 
     function updatePrice() {
         let selectedVariantId = variantDropdown.value;
