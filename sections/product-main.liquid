@@ -74,6 +74,25 @@
       </div>
     </div>
   </div>
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  let variantDropdown = document.querySelector("[name='id']");
+  let priceElement = document.getElementById("dynamic-price");
+  let variants = {{ variants_json | json }};
+
+  if (variantDropdown && priceElement) {
+    variantDropdown.addEventListener("change", function() {
+      let selectedVariantId = this.value;
+      let selectedVariant = variants.find(variant => variant.id == selectedVariantId);
+
+      if (selectedVariant) {
+        priceElement.innerText = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(selectedVariant.price / 100);
+      }
+    });
+  }
+});
+</script>
+
 </section>
 
 {% schema %}
