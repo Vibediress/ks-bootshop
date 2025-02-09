@@ -497,8 +497,8 @@
         "item_AgKJ3m": {
           "type": "item",
           "settings": {
-            "title": "Where do you ship?",
-            "description": "<p>We ship all around the world... Please provide here you own shipping information, including times, prices, options etc.</p>"
+            "title": "📦 Où livrons-nous ?",
+            "description": "<p></p><p>AstraiaLux assure la livraison principalement <strong>à La Réunion 🇷🇪 et en France Métropolitaine 🇫🇷</strong>. Nous expédions nos produits avec des transporteurs fiables pour garantir une livraison sécurisée et rapide.</p><p>Que vous soyez en métropole ou à La Réunion, nous nous engageons à vous livrer dans les meilleures conditions. 🚀✨</p>"
           }
         },
         "item_EemRD3": {
@@ -752,6 +752,7 @@
     },
     "featured_products_kqpirV": {
       "type": "featured-products",
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
