@@ -108,6 +108,7 @@
         },
         "11016cfc-fdff-46f2-9b6b-26a6e68b7653": {
           "type": "collapse",
+          "disabled": true,
           "settings": {
             "icon_size": 20,
             "title": "Product Details",
