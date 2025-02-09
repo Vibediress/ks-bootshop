@@ -526,8 +526,8 @@
         "item_pHCJRG": {
           "type": "item",
           "settings": {
-            "title": "How can I track my order?",
-            "description": "<p>We will send tracking information to the e-mail address associated with your order once the item has shipped. If you have not received your tracking information and it has been over 2 business day, please contact us at (012) 123 - 4567</p>"
+            "title": "Comment suivre ma commande ?",
+            "description": "<p>Une fois votre commande expédiée, vous recevrez un e-mail contenant les informations de suivi à l'adresse e-mail associée à votre commande.</p><p>Si vous n'avez pas reçu votre numéro de suivi après <strong>2 jours ouvrés</strong>, veuillez nous contacter à :</p><p>L'équipe <strong>AstraiaLux</strong> est là pour vous accompagner à chaque étape de votre commande ! </p>"
           }
         },
         "item_kWLWrb": {
