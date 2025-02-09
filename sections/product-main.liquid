@@ -92,6 +92,30 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let variantDropdown = document.querySelector("[name='id']");
+    let priceElement = document.getElementById("dynamic-price");
+    let quantityInput = document.querySelector("input[name='quantity']");
+    let variants = {{ variants_json | json }};
+
+    function updatePrice() {
+        let selectedVariantId = variantDropdown.value;
+        let selectedVariant = variants.find(variant => variant.id == selectedVariantId);
+        let quantity = quantityInput ? parseInt(quantityInput.value) : 1;
+
+        if (selectedVariant && priceElement) {
+            let totalPrice = (selectedVariant.price / 100) * quantity;
+            priceElement.innerText = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(totalPrice);
+        }
+    }
+
+    if (variantDropdown && priceElement && quantityInput) {
+        variantDropdown.addEventListener("change", updatePrice);
+        quantityInput.addEventListener("input", updatePrice);
+    }
+});
+</script>
 
 </section>
 
