@@ -13,6 +13,7 @@
   "sections": {
     "newsletter_fL4LWF": {
       "type": "newsletter",
+      "custom_css": [],
       "settings": {
         "bg_color": "bg-secondary",
         "bg_opacity": 5,
@@ -23,13 +24,13 @@
         "border_color": "border-secondary",
         "border_opacity": 10,
         "container_max_width": "600",
-        "header_title": "Newsletter Subscribe",
+        "header_title": "Reste informé des nouveautés et offres exclusives !",
         "header_title_font_size": "h3",
-        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description": "<p>Saisis ton adresse e-mail pour ne rien manquer.</p><p></p>",
         "header_description_font_size": "fs-md",
         "btn_color": "btn-primary",
         "btn_size": "",
-        "notice": "<p>By signing up for email, you agree to our <a href=\"/policies/terms-of-service\">Terms of Service</a> and <a href=\"/policies/privacy-policy\">Privacy Policy</a>.</p>",
+        "notice": "<p>Nous respectons votre vie privée. En vous abonnant, vous acceptez nos <a href=\"#\">CGV</a> et notre <a href=\"#\">Politique de confidentialité</a></p>",
         "pt": 11,
         "pb": 11
       }
