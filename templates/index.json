@@ -504,8 +504,8 @@
         "item_EemRD3": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to receive my order",
-            "description": "<p>This depends on whether it is an International or a Domestic order. All orders within the U.S. are considered domestic orders and they are shipped and delivered within 2-5 business days. Please see International Orders for more details.</p>"
+            "title": "📦 Combien de temps faut-il pour recevoir ma commande ?",
+            "description": "<p><br/>Le délai de livraison dépend de la destination de votre commande :</p><ul><li><strong>À La Réunion</strong> : En moyenne <strong>10 à 20 jours ouvrés</strong>, en fonction du traitement douanier et des délais des transporteurs.</li><li><strong>En France Métropolitaine</strong> : Généralement <strong>5 à 10 jours ouvrés</strong> après l'expédition.</li></ul><p>Un numéro de suivi est fourni dès l’expédition pour suivre votre colis en temps réel.</p>"
           }
         },
         "item_zR73bw": {
