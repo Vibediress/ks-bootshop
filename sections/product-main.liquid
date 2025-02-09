@@ -116,6 +116,35 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 </script>
+document.addEventListener("DOMContentLoaded", function() {
+    let variantDropdown = document.querySelector('[name="id"]');
+    let priceElement = document.getElementById("dynamic-price");
+    let quantityInput = document.querySelector('input[name="quantity"]');
+    let variants = JSON.parse('{{ product.variants | json }}');
+
+    function updatePrice() {
+        if (!variantDropdown || !priceElement || !quantityInput) return;
+        
+        let selectedVariantId = variantDropdown.value;
+        let selectedVariant = variants.find(variant => variant.id == selectedVariantId);
+        
+        if (selectedVariant) {
+            let quantity = parseInt(quantityInput.value, 10) || 1;
+            let totalPrice = (selectedVariant.price / 100) * quantity;
+            priceElement.innerText = new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(totalPrice);
+        }
+    }
+
+    if (variantDropdown) {
+        variantDropdown.addEventListener("change", updatePrice);
+    }
+
+    if (quantityInput) {
+        quantityInput.addEventListener("input", updatePrice);
+    }
+
+    updatePrice(); // Mise à jour initiale
+});
 
 </section>
 
