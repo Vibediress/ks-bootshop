@@ -414,6 +414,15 @@
             "btn_text": "Learn more",
             "btn_url": ""
           }
+        },
+        "item_7nFNbP": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "description": "",
+            "btn_text": "Learn more",
+            "btn_url": ""
+          }
         }
       },
       "block_order": [
@@ -424,7 +433,8 @@
         "item_hAPJWn",
         "item_9EkHYL",
         "item_iKKgHJ",
-        "item_Je3xNm"
+        "item_Je3xNm",
+        "item_7nFNbP"
       ],
       "disabled": true,
       "settings": {
@@ -466,29 +476,6 @@
         "breakpoint_desktop": 4,
         "pt": 10,
         "pb": 11
-      }
-    },
-    "html_Y7Cp8x": {
-      "type": "html",
-      "settings": {
-        "liquid": "<p class=\"alert alert-primary text-center\">Current datetime is: <b>{{ \"now\" | date: \"%Y-%m-%d %H:%M\" }}</b></p>\n\n<iframe class=\"rounded\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5458.176837636101!2d7.264440042281333!3d43.69609386612476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cddaa162b4a50b%3A0x77566707bed909ce!2sFontaine%20du%20Soleil!5e0!3m2!1sen!2s!4v1651756644654!5m2!1sen!2s\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
-        "bg_color": "bg-body",
-        "bg_opacity": 100,
-        "bg_gradient": "",
-        "text_color": "text-body",
-        "border_top_width": 1,
-        "border_bottom_width": 0,
-        "border_color": "border-body",
-        "border_opacity": 10,
-        "container": "container",
-        "container_max_width": "",
-        "text_align": "text-center",
-        "header_title": "HTML and Liquid",
-        "header_title_font_size": "h3",
-        "header_description": "<p>Add on optional description for this section</p>",
-        "header_description_font_size": "fs-md",
-        "pt": 10,
-        "pb": 10
       }
     },
     "faq_7TT7z4": {
@@ -797,7 +784,6 @@
     "separator_kfq8kz",
     "media_with_text_xTY8gi",
     "card_slider_BFzjjF",
-    "html_Y7Cp8x",
     "faq_7TT7z4",
     "testimonials_eFtnyC",
     "blog_slider_UUweWT",
